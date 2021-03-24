@@ -2,51 +2,61 @@
 :: 
 :: ▒█▀▀█ ▒█▀▀▀ ░█▀▀█ ▒█▄░▒█ ▒█▀▀▀█ ▀▀█▀▀ ░█▀▀█ ▒█▀▀█ ▀▀█▀▀ 
 :: ▒█▀▀▄ ▒█▀▀▀ ▒█▄▄█ ▒█▒█▒█ ░▀▀▀▄▄ ░▒█░░ ▒█▄▄█ ▒█▄▄▀ ░▒█░░ 
-:: ▒█▄▄█ ▒█▄▄▄ ▒█░▒█ ▒█░░▀█ ▒█▄▄▄█ ░▒█░░ ▒█░▒█ ▒█░▒█ ░▒█░░
+:: ▒█▄▄█ ▒█▄▄▄ ▒█░▒█ ▒█░░▀█ ▒█▄▄▄█ ░▒█░░ ▒█░▒█ ▒█░▒█ ░▒█░░ v0.3
 :: 
-:: ---------------------------
-:: 感謝使用          BeanStart
+:: -----------------------------------------------
+:: 感謝使用 Thank you for using          BeanStart
 :: 
 :: 
-:: 下載: https://github.com/HappyAreaBean/BeanStart/releases
-:: 變更日誌: https://github.com/HappyAreaBean/BeanStart/changelog.md
+:: 下載 Download: https://github.com/HappyAreaBean/BeanStart/releases
+:: 變更日誌 Changelog: https://github.com/HappyAreaBean/BeanStart/wiki/Changelog
 :: 
-:: (c) BeanStart/HappyAreaBean
-:: ---------------------------
+:: BeanStart By HappyAreaBean
+:: -----------------------------------------------
 @ECHO OFF
 
 :: 是否切換CMD編碼至 UTF-8 (yes / no)
+:: Switch CMD encoding to UTF-8? (yes / no)
 set UTF-8=yes
 
 if %UTF-8% == yes chcp 65001
 
 :: 伺服名稱
+:: Server name
 set Name=Example [1.16]
 
 :: 伺服版本
+:: Server Version
 set Version=[Survival]
 
 :: 伺服最大記憶體 (請加上大小 G/M)
+:: Max memory
 set Max-Memory=8G
 
 :: 伺服最小記憶體 (請加上大小 G/M)
+:: Mini memory
 set Min-Memory=4G
 
 :: 伺服端
+:: Server jar file
 set Jarfile=paperclip.jar
 
 :: Java路徑
 :: 如果不指定版本請填寫 java
+:: Java Path
+:: If you are not specify a version, please fill in java
 set Java="C:\Program Files\Java\jdk-11.0.9.1+1\bin\java.exe"
 
 :: 關閉後自動重開 (yes / no)
+:: Automatically restart after closing (yes / no)
 set AutoRestart=yes
 
 
 :: -----------------------------------
 :: 建議不要刪除或移動下面的所有選項!!
-:: Not recommend for edit below!!
-:: (c) BeanStart/HappyAreaBean
+:: Not recommended to delete or edit all the options below!
+::
+:: BeanStart By HappyAreaBean
 :: -----------------------------------
 echo(
 echo +----------------------------------------------------+
