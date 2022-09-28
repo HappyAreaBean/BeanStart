@@ -3,7 +3,7 @@ More function windows minecraft java server start .bat file
 
 [![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/HappyAreaBean/BeanStart?label=latest%20stable&style=for-the-badge)](https://github.com/HappyAreaBean/BeanStart/releases) 
 [![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/HappyAreaBean/BeanStart?include_prereleases&label=latest%20beta&style=for-the-badge)](https://github.com/HappyAreaBean/BeanStart/releases) 
-[![GitHub release (latest by date)](https://img.shields.io/github/downloads/HappyAreaBean/BeanStart/latest/total?label=Downloads%40Latest&style=for-the-badge)](https://github.com/HappyAreaBean/BeanStart/releases)
+[![GitHub release (latest by date)](https://img.shields.io/github/downloads/HappyAreaBean/BeanStart/total?label=Downloads&style=for-the-badge)](https://github.com/HappyAreaBean/BeanStart/releases)
 
 ---
 
